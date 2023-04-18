@@ -7,6 +7,9 @@ box-sizing: border-box;
 
 body{
     display: flex;
+    display: flex;
+
+justify-content: center;
     
 }
 
@@ -50,7 +53,8 @@ border-radius: 20px;
            
             /* #f2a0a5, */
             #ff930f,
-            #fff95b
+            #fff95b,
+            #e81cff
         );
     }
 
@@ -63,6 +67,10 @@ border-radius: 20px;
         justify-content: center;
         align-items: center;
         border-radius: 20px;
+        overflow: hidden;
+    
+        
+       
         
             padding: 0 50px; 
             margin-left: 20px;
@@ -77,3 +85,5 @@ border-radius: 20px;
                  #e81cff
             );
         }
+
+       
